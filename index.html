@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Pessoal</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="#inicio" class="nav-link">Home</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#disciplinas" class="nav-link">Disciplinas</a></li>
+        <li><a href="#curriculo" class="nav-link">Currículo</a></li>
+        <li><a href="#profissao" class="nav-link">Profissão</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h3>
+        Engenheiro de Software, Graduando (2º Período) Universidade de Vassouras
+    </h3>
+    </div>
+      <ul class="rede-social">
+        <a href="https://www.facebook.com/jonathan.henrique.50/" target="_blank" title="Facebook"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="https://github.com/Jonathan-EngSoftware/" target="_blank" title="GitHub"><i class='bx bxl-github'></i> </a>
+        <a href="https://www.linkedin.com/in/jonathan-almeida-236a90213/" target="_blank" title="LinkedIn"><i class='bx bxl-linkedin' ></i></a>
+      </ul>
+      <a href="https://universidadedevassouras.edu.br/graduacao-marica/engenharia-de-software/"><img src="img/1678111897550.png" alt="UNIVASSOURAS" width="150px" align="right"></a>
+    </header>
+    <div class="popup">
+      <div class="popup-content">
+        <h2>Bem-vindo(a) ao meu site!</h2>
+        <p>Aqui você conhecerá mais sobre mim.</p>
+        <button onclick="closePopup()">Fechar</button>
+      </div>
+    </div>
+  <div id="imagem">
+    <img class="imagem" src="img/fundo1.jpeg" alt=""; width="150px">
+    <h1 align="center" style="float: center; margin: 10px;">Jonathan Henrique</h1>
+    <section id="inicio">
+      <p id="efeito1"></p>
+      <div id="content" style="display:none">
+      <p>Aqui você encontrará tudo sobre a minha pessoa, <br> uma maneira simples e prática 
+        de me conhecer melhor. <br> Tenho interesse na área de programação, porque sempre gostei de videogames e a forma como são feitos. <br>
+        Por isso, e também visando a demanda do mercado, estou cursando Engenharia de Software, e aprimorando o meu portfólio.</p>
+      </div>
+      <button id="show-content">Mostrar Conteúdo</button>
+      </section>
+  </div>
+  <main>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>Me chamo Jonathan Henrique Ribeiro Coutinho de Almeida, tenho 26 anos, <br> e estou cursando Engenharia de Software pela Universidade de Vassouras. <br>
+        Atualmente estou no 2º Período da faculdade, faltando assim 6 períodos para concluir o curso. <br>
+        Formado em Técnico de Eletromecância pela ETE (Escola Técnica Estadual) FAETEC. <br>
+        Natural do Rio de Janeiro, nasci no centro do Rio, e vim para Saquarema com 8 anos de idade. <br>
+        Criado apenas pela minha mãe, aprendi muitos valores desde pequeno, que carrego comigo até os dias de hoje. <br>
+        Sou Testemunha de Jeová, e essa foi a melhor decisão que tomei na minha vida. <br>
+        Busco aprimorar constantemente, e me especializar para ser um profissional competente. <br>
+        Atualmente me interessei muito pela linguagem de programação Python, e pretendo me especializar nela.
+</p>
+    </section>
+
+    <section id="disciplinas">
+      <table>
+        <h2>Disciplinas do Curso de Engenharia de Software 2º Período</h2>
+        <tr>
+            <td><li>Prática de Leitura e Produção Textual </li></td>
+        </tr>
+        <tr>
+            <td><li>Algoritmos</li></td>
+        </tr>
+        <tr>
+            <td><li>Laboratório de Programação de Web Sites</li></td>
+        </tr>
+        <tr>
+            <td><li>Engenharia dee Requisitos e Análise de Sistemas</li></td>
+        </tr>
+        <tr>
+            <td><li> Práticas Extensionistas Integradoras II</li></td>
+        </tr>
+        <tr>
+            <td><li>Gestão Empresarial</li></td>
+        </tr>
+        <tr>
+            <td><li>Ética, Cidadania e Sociedade</li></td>
+        </tr>
+        </table>
+    </section>
+    <section id="profissao">
+      <h2>Profissão</h2>
+      <p>Sou representante comercial da empresa FAIMPORT. <br>
+        Trabalhamos com sistemas para o tratamento de água de indústrias farmacêuticas.
+        <table>
+          Montamos sistemas como:
+          <tr><td><li> Osmose Reversa, simples e duplo passo</li></td></tr>
+          <tr><td><li>Eletrodeionização</li></td></tr>
+          <tr><td><li>Desinfecção Térmica direta ou por vapor Puro</li></td></tr>
+        </table>
+      </p>
+      <img src="img/sis 3.png" alt="Osmose Reversa" width="500px">
+    </section>
+
+    <section id="curriculo">
+      <h2>Currículo</h2>
+      <div class="project">
+        <h3>Acesse o meu Currículo</h3>
+        <a href="Currículo Jonathan.pdf" class="button"> Currículo</a>
+      </div>
+    </section>
+
+    <section id="contato">
+      <table>
+        <td>
+          <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1837.6298346837468!2d-42.478482561547445!3d-22.90379122406923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x975e095254daaf%3A0x74d44879a01e6b0b!2sR.%20Jo%C3%A3o%20Santana%2C%20111%20-%20Porto%20da%20Ro%C3%A7a%2C%20Saquarema%20-%20RJ%2C%2028990-000!5e0!3m2!1spt-BR!2sbr!4v1686074118821!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          </td>
+        <td>
+      <h2 align="center">Contato</h2>
+      <form class="contato">
+        <input type="text" placeholder="Seu nome">
+        <input type="email" placeholder="Seu e-mail">
+        <textarea placeholder="Sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div id="thank-you-message" style="display: none;">
+        <p>Obrigado pela mensagem! Entraremos em contato em breve.</p>
+      </td>
+      </div>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <h4 align="left">Endereço</h4>
+    <h5 align="left">Rua João Santana <br> Nº 111, casa 62 <br> Porto da Roça <br>Saquarema-RJ <br>
+      Tel: (22) 99205-4495 (WhatsApp) <br>
+      E-mail:jonathan.eletromecanico@hotmail.com
+    </h5>
+    <p align="center"> Copyright &copy; 2023 Jonathan Henrique | Todos os direitos reservados.</p>
+  </footer>
+  
+  <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_DE_API"></script>
+  <script src="javascript/script.js"></script>
+</body>
+</html>

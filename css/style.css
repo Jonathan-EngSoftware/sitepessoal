@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+  }
+  
+  h1, h2, h3 {
+    color: whitesmoke;
+  }
+  header {
+    background-color: #333;
+    padding: 20px;
+    height: 200;
+    color: whitesmoke;
+  }
+  .menu {
+    background-color: #1b1d2b;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  section {
+    padding: 40px;
+  }
+  
+  #inicio {
+    background-color: #333;
+  }
+  #sobre {
+    background-color: #1b1d2b;
+  }
+
+  #disciplinas {
+    background-color: #333;
+  }
+  #profissao {
+    background-color: #1b1d2b;
+  }
+  #curriculo {
+    background-color: #333;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #466d80;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: white;
+  }
+  #contato {
+    background-color: #1b1d2b;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    nav ul li a {
+      font-size: 14px;
+    }
+  }
+  #imagem {
+    background-color: #1b1d2b;
+    padding: none;
+  }
+  .imagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+.rede-social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.rede-social li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.rede-social a {
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 32px;
+}
+
+.rede-social a:hover {
+  color: red;
+}
+
+
+.contato {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1b1d2b;
+  border-radius: 5px;
+}
+
+.contato input[type="text"],
+.contato textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+.contato input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contato input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+@keyframes revealAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#content {
+  animation: revealAnimation 0.5s ease-out forwards;
+}
+.nav-link {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+#mapa {
+  width: 400px;
+  height: 300px;
+  align-items: center;
+  background-position: center;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 9999;
+  color: black;
+  box-sizing: border-box;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+.popup-content h2 {
+  margin-top: 0;
+  color: black;
+}
+
+.popup-content button {
+  background-color: #1b1d2b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.popup-content button:hover {
+  background-color: red;
+}
